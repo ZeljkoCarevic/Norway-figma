@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+
+.main-header > img {
+  object-fit: cover;
+}
