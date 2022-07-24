@@ -1,7 +1,32 @@
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.main-header > img {
-  object-fit: cover;
+.main-header {
+  background-image: url("./sunset-gb2bbbe2d1_1920.jpg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 75px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.explore {
+  font-weight: 100;
+  font-size: 20px;
+  opacity: 40%;
+}
+.nav {
+  margin: 0;
 }

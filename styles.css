@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav > img {
+  object-fit: none;
+  color: white;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Rectangle\ 1.png);
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  flex-direction: column;
+  color: white;
+}
+
+.main-text > h1 {
+  font-size: 150px;
+  height: 150px;
+  margin: 0.1rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: auto;
+}
+.icons > img {
+  object-fit: scale-down;
+}
+.first {
+  width: auto;
+}
+
+.plan-a-trip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.list-item {
+  background: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  border: none;
+}
+.list-item > h5 {
+  margin-bottom: 0px;
+}
+.list-item > p {
+  margin-top: 5px;
+}
+.see-more {
+  position: absolute;
+  left: -50px;
+  transform: rotate(-90deg);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 15px;
+  color: white;
+  opacity: 60%;
+}
+.see-more > img {
+  transform: rotate(-90deg);
+  float: left;
+}
