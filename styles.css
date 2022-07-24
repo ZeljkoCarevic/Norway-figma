@@ -31,7 +31,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./Rectangle\ 1.png);
+  background-image: url(./images/Rectangle\ 1.png);
   min-height: 100vh;
   flex-direction: column;
 }
@@ -110,7 +110,6 @@ a {
   transform: rotate(-90deg);
   float: left;
 }
-
 .activities {
   display: flex;
   align-items: center;
@@ -119,10 +118,16 @@ a {
 }
 .picture-slide {
   display: flex;
+
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 .picture-slide img {
   display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
