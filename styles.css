@@ -110,3 +110,19 @@ a {
   transform: rotate(-90deg);
   float: left;
 }
+
+.activities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.picture-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.picture-slide img {
+  display: flex;
+}
