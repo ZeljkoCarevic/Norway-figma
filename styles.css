@@ -115,19 +115,134 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 620px;
+  position: relative;
 }
 .picture-slide {
   display: flex;
-
+  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
+  max-height: 600px;
 }
-.picture-slide img {
-  display: flex;
+
+.activity-types {
+  margin: 5px;
+  height: 500px;
+}
+
+.activity-types > img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .description {
+  position: absolute;
   display: flex;
   flex-direction: column;
+  bottom: 0;
+  color: white;
+  margin: 5px;
+}
+
+.description > h3 {
   margin: 0;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-text > h5 {
+  letter-spacing: 0.3rem;
+}
+
+.philosopy {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.picture-txt {
+  width: 700px;
+  margin-left: 140px;
+}
+
+.picture-txt > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.philosophies {
+  width: 500px;
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ph-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.ph-text > p {
+  margin: 0;
+}
+
+.hotels {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hotel > img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  height: 300px;
+}
+.input-fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgba(170, 167, 167, 0.5);
+  border-radius: 5px;
+}
+.input > button {
+  padding: 10px 50px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgba(170, 167, 167, 0.5);
+  transform: translateY(10px);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pics {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.comments {
+  width: 100%;
+  background-image: url(./images/GwT7fA1zjwY.png);
+  height: 100%;
 }
